@@ -1,8 +1,8 @@
-Unity Custom Tools
+<b>Unity Custom Tools</b>
 
 This repository adds a new top-menu category in the Unity Editor called Custom Tools, containing several productivity utilities designed to speed up everyday development work.
 
-Included Tools
+<b>Included Tools</b>
 1. Batch Rename Tool
 
 Select multiple objects and rename them using custom naming rules.
@@ -27,16 +27,16 @@ A simple set of quality-of-life features to make scene navigation faster.
 Scans all objects in the currently open scene and detects fields with missing or null references.
 Helps quickly locate broken links that can cause errors during gameplay.
 
-Requirements:
+<b>Requirements:</b>
 
 Unity 2022+ or Unity 6
 
 Editor scripting enabled
 
-Installation:
+<b>Installation:</b>
 
 Clone or download the repository and place the Editor folder inside your Unity project.
 
-License
+<b>License</b>
 
 MIT License
