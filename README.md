@@ -41,8 +41,17 @@ Persist configuration between editor sessions
 
 Batch-move assets safely using Unity’s AssetDatabase
 
-A lightweight editor tool that keeps large projects clean and structured with minimal manual work.
+5. Editor Autosaver
 
+Automatically saves the active Unity scene at configurable time intervals.
+
+Allows you to:
+
+Enable or disable autosave via a menu toggle
+Choose save intervals from a simple settings window
+Automatically save scenes only when changes are detected
+Skip unsaved scenes to avoid disruptive dialogs
+Persist autosave settings between editor sessions
 
 Requirements:
 
