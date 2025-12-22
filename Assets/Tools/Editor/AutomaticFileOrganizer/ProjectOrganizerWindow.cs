@@ -241,7 +241,7 @@ public class ProjectOrganizerWindow : EditorWindow
         }
 
         var assetsDiskPath = Application.dataPath; 
-        var files = Directory.EnumerateFiles(assetsDiskPath, "*.*", SearchOption.AllDirectories)
+        var files = Directory.EnumerateFiles(assetsDiskPath, "*.*", SearchOption.TopDirectoryOnly)
             .Where(p => !p.EndsWith(".meta", StringComparison.OrdinalIgnoreCase));
 
         int moved = 0;
