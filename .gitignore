@@ -73,3 +73,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/Assets/Images
+Assets/Animations.meta
+Assets/Images.meta
+Assets/Tools/Editor/Examples.meta
+Assets/TutorialInfo/Icons/URP.png
+Assets/TutorialInfo/Icons/URP.png
+/Assets/TutorialInfo/Icons
