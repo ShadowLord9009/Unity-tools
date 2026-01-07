@@ -53,6 +53,25 @@ Automatically save scenes only when changes are detected
 Skip unsaved scenes to avoid disruptive dialogs
 Persist autosave settings between editor sessions
 
+6. Image Optimizer
+
+The tool is designed for:
+
+quick memory optimization,
+
+working on multiple textures at once,
+
+avoiding manual per-asset tweaking.
+
+How it works
+
+Implemented as a Custom Inspector for TextureImporter.
+When the Optimize button is pressed:
+the actual source texture dimensions are read,
+the nearest lower power of two is calculated (one level down),
+maxTextureSize is updated accordingly,
+assets are reimported in a single batch for better performance.
+
 Requirements:
 
 Unity 2022+ or Unity 6
