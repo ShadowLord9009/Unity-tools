@@ -11,15 +11,10 @@ Useful for quickly organizing scene hierarchies and large collections of objects
 2. Custom Hierarchy Toggle
 
 Adds extra buttons to objects in the Hierarchy window, allowing you to:
-
 Display additional info about the object
-
 Focus the camera on it
-
 Delete the object
-
 Create a prefab directly from the selected object
-
 A simple set of quality-of-life features to make scene navigation faster.
 
 3. Missing References Detector
@@ -32,13 +27,9 @@ Helps quickly locate broken links that can cause errors during gameplay.
 Automatically organizes Unity project assets into folders based on file extensions.
 
 Allows you to:
-
 Define custom asset types with multiple extensions
-
 Assign target folders per asset type
-
 Persist configuration between editor sessions
-
 Batch-move assets safely using Unity’s AssetDatabase
 
 5. Editor Autosaver
@@ -56,15 +47,11 @@ Persist autosave settings between editor sessions
 6. Image Optimizer
 
 The tool is designed for:
-
 quick memory optimization,
-
 working on multiple textures at once,
-
 avoiding manual per-asset tweaking.
 
-How it works
-
+How it works:
 Implemented as a Custom Inspector for TextureImporter.
 When the Optimize button is pressed:
 the actual source texture dimensions are read,
@@ -75,13 +62,8 @@ assets are reimported in a single batch for better performance.
 Requirements:
 
 Unity 2022+ or Unity 6
-
 Editor scripting enabled
-
 Installation:
-
 Clone or download the repository and place the Editor folder inside your Unity project.
-
 License
-
 MIT License
