@@ -80,3 +80,5 @@ Assets/Tools/Editor/Examples.meta
 Assets/TutorialInfo/Icons/URP.png
 Assets/TutorialInfo/Icons/URP.png
 /Assets/TutorialInfo/Icons
+Assets/Tools/Editor/CustomGameObjectDebugger/CustomGameobjectDebugger.cs
+*.meta
